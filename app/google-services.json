@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "173176715326",
+    "firebase_url": "https://dictionary-5abcb.firebaseio.com",
+    "project_id": "dictionary-5abcb",
+    "storage_bucket": "dictionary-5abcb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173176715326:android:a3f5a0236b51a7c4",
+        "android_client_info": {
+          "package_name": "khjin001010.kr.hs.emirim.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173176715326-h25bst3c520r5fiul8km56ouvkp9586u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "khjin001010.kr.hs.emirim.myapplication",
+            "certificate_hash": "a8d93c84e7bdecfdfad23720cb65146161ba2c0a"
+          }
+        },
+        {
+          "client_id": "173176715326-5qu52pjrccu8dnt14lb40hqvit4l6u5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDChXjgMQKYdIc8iPpBDRFqXatHb4cYE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173176715326-5qu52pjrccu8dnt14lb40hqvit4l6u5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
