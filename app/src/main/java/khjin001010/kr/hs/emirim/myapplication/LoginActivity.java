@@ -48,8 +48,6 @@ public class LoginActivity extends AppCompatActivity implements
             @Override
             public void onClick(View v) {
                 signIn();
-                //Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-                //startActivity(intent);
             }
         });
 
@@ -93,9 +91,9 @@ public class LoginActivity extends AppCompatActivity implements
                 GoogleSignInAccount account = result.getSignInAccount();
                 firebaseAuthWithGoogle(account);
                 Toast.makeText(this, "로그인에 성공하셨습니다.", Toast.LENGTH_SHORT).show();
-
                 Intent intent = new Intent(getApplicationContext(), MainActivity.class);
                 startActivity(intent);
+                finish();
             } else {
                 // Google Sign In failed, update UI appropriately
                 // [START_EXCLUDE]

@@ -21,9 +21,12 @@ public class LoadingActivity extends Activity {
         startLoading();
     }
 
+
     private void startLoading() {
         Handler handler = new Handler();
+
         handler.postDelayed(new Runnable() {
+
             @Override
             public void run() {
                 Intent intent = new Intent(getBaseContext(), LoginActivity.class);
@@ -32,4 +35,7 @@ public class LoadingActivity extends Activity {
             }
         }, 2000);
     }
+
 }
+
+
